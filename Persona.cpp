@@ -2,9 +2,9 @@
 using namespace std;
 
 class Persona {
-    // Atributos con métodos de acceso protegidos para poder heredarlos
+    // Atributos 
     protected: 
-        string nombres, apellidos, dirección;
+        string nombres, apellidos, direcciÃ³n;
         int telefono;
 
     // Constructor
@@ -14,10 +14,10 @@ class Persona {
         Persona(string nom, string ape, string dir, int tel) {
             nombres = nom;
             apellidos = ape;
-            dirección = dir;
+            direcciÃ³n = dir;
             telefono = tel;
         }
 
-    // Método mostrar
+    // MÃ©todo mostrar
     void mostrar();
 };
