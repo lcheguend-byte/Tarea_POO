@@ -3,9 +3,8 @@
 using namespace std;
 
 class Cliente : Persona {
-    // Atributo propio de la clase cliente
-    private: 
-        string nit;
+    // Atributo 
+    private: string nit;
 
     // Constructor
     public:
