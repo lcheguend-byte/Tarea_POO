@@ -3,7 +3,7 @@
 using namespace std;
 
 main() {
-    string nit, nombres, apellidos, direcci髇;
+    string nit, nombres, apellidos, direcci贸n;
     int telefono;
 
     cout << "Ingresar Nit: ";
@@ -12,15 +12,13 @@ main() {
     cin >> nombres;
     cout << "Ingresar Apellidos: ";
     cin >> apellidos;
-    cout << "Ingresar Direcci髇: ";
-    cin >> direcci髇;
-    cout << "Ingresar Tel閒ono: ";
+    cout << "Ingresar Direcci贸n: ";
+    cin >> direcci贸n;
+    cout << "Ingresar Tel茅fono: ";
     cin >> telefono;
 
-    // Instancia de un objeto
-    Cliente obj = Cliente(nombres, apellidos, direcci髇, telefono, nit);
-    
-    // Mostrar datos iniciales
+    // instancia de un objeto
+    Cliente obj = Cliente(nombres, apellidos, direcci贸n, telefono, nit);
     obj.mostrar();
 
     // Ejemplo de uso de Setter para modificar solo el NIT
